@@ -2,6 +2,10 @@
 
 Static portfolio website for Jinnawat Konsantad.
 
+## Live Site
+
+https://prsworkswgg.github.io/jinnawat-portfolio/
+
 ## Local Preview
 
 Run a local static server from this folder:
