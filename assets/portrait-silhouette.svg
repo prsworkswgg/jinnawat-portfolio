@@ -1,0 +1,19 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Abstract professional side-profile portrait silhouette</title>
+  <rect width="900" height="1100" fill="white"/>
+  <path d="M182 1098C164 939 152 763 175 612C198 460 250 338 364 268C480 196 642 213 732 318C783 377 791 450 756 505C728 548 682 573 627 580C617 627 614 672 639 714C667 760 722 791 800 821C791 909 772 1001 739 1098H182Z" fill="#06090E"/>
+  <path d="M360 261C332 213 338 149 374 105C424 45 515 30 596 56C687 86 742 162 742 253C742 302 725 352 686 393C694 343 679 297 639 265C601 234 545 226 491 237C442 247 401 271 360 261Z" fill="#0C1118"/>
+  <path d="M648 382C687 404 704 447 684 482C664 516 615 530 574 513C604 491 626 446 648 382Z" fill="#0F1520"/>
+  <path d="M380 1089C356 904 349 761 381 655C408 564 466 498 566 461C589 476 613 491 637 506C607 562 596 622 618 683C641 748 703 789 800 822C791 910 772 1002 739 1099L380 1089Z" fill="#0B0F16"/>
+  <path d="M187 1098C182 916 210 774 270 674C317 594 385 538 474 504C429 590 408 692 412 809C416 902 430 999 455 1098H187Z" fill="#05070B"/>
+  <path d="M706 402C709 451 690 498 653 531C687 520 717 499 736 470C753 443 748 417 706 402Z" fill="#161D28" opacity="0.8"/>
+  <path d="M305 224C322 133 398 63 497 47C427 41 365 66 323 112C288 150 274 196 305 224Z" fill="#171D26"/>
+  <path d="M188 1098C175 958 166 815 181 688C202 786 251 887 345 989C363 1008 382 1044 398 1098H188Z" fill="#030508"/>
+  <path d="M0 0H900V1100H0V0Z" fill="url(#vignette)" style="mix-blend-mode:multiply"/>
+  <defs>
+    <radialGradient id="vignette" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 430) rotate(61) scale(805 1000)">
+      <stop offset="0.55" stop-color="white" stop-opacity="0"/>
+      <stop offset="1" stop-color="#EEF2F7"/>
+    </radialGradient>
+  </defs>
+</svg>
