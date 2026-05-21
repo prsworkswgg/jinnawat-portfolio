@@ -308,6 +308,7 @@ svg {
   font-size: clamp(20px, 2vw, 28px);
   font-weight: 830;
   line-height: 1.25;
+  overflow-wrap: anywhere;
 }
 
 .hero-summary {
@@ -426,6 +427,7 @@ svg {
   font-weight: 900;
   line-height: 1.02;
   letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 .panel-controls {
@@ -632,6 +634,7 @@ svg {
 .project-tabs button {
   display: grid;
   gap: 7px;
+  min-width: 0;
   min-height: 112px;
   padding: 15px;
   border: 1px solid var(--line);
@@ -647,12 +650,14 @@ svg {
   color: var(--ink);
   font-size: 15px;
   line-height: 1.16;
+  overflow-wrap: anywhere;
 }
 
 .project-tabs small {
   color: var(--muted);
   font-size: 12px;
   line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .project-tabs button.active,
@@ -665,6 +670,7 @@ svg {
 
 .summary-band,
 .channels-section,
+.role-fit-section,
 .competency-section,
 .work-section,
 .skills-section,
@@ -695,6 +701,7 @@ svg {
   font-weight: 920;
   line-height: 1.04;
   letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 .summary-band > p,
@@ -706,6 +713,7 @@ svg {
 }
 
 .channels-section,
+.role-fit-section,
 .competency-section,
 .work-section,
 .skills-section,
@@ -821,6 +829,52 @@ svg {
   color: var(--muted);
   font-size: 12.5px;
   line-height: 1.42;
+  overflow-wrap: anywhere;
+}
+
+.role-fit-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.role-fit-grid article {
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(7, 92, 255, 0.065), transparent 70%),
+    #fff;
+  box-shadow: 0 12px 30px rgba(12, 24, 44, 0.045);
+}
+
+.role-fit-grid span {
+  display: inline-grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  margin-bottom: 18px;
+  border-radius: 6px;
+  background: var(--blue);
+  color: #fff;
+  font: 900 13px/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.role-fit-grid h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.16;
+  overflow-wrap: anywhere;
+}
+
+.role-fit-grid p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
   overflow-wrap: anywhere;
 }
 
@@ -1152,7 +1206,8 @@ svg {
 
   .competency-grid,
   .skill-stack,
-  .channel-grid {
+  .channel-grid,
+  .role-fit-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1343,7 +1398,8 @@ svg {
 
   .competency-grid,
   .skill-stack,
-  .channel-grid {
+  .channel-grid,
+  .role-fit-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1392,6 +1448,7 @@ svg {
   .hero,
   .summary-band,
   .channels-section,
+  .role-fit-section,
   .competency-section,
   .work-section,
   .skills-section,

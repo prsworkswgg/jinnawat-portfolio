@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Smart Manufacturing Data Workflow",
-    metrics: ["Data Input", "SQLite", "Streamlit", "AI Report"],
+    metrics: ["Sensor Data", "Preprocess", "Anomaly Logic", "PM Concept"],
     workflow: ["Collect", "Clean", "Store", "Analyze", "Report"],
   },
   {
