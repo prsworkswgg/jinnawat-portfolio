@@ -25,8 +25,8 @@ http://localhost:4173
 - `index.html` - page structure and portfolio content
 - `styles.css` - responsive layout, visual system, and component styling
 - `script.js` - interactive project console and navigation behavior
-- `assets/` - local image and downloadable CV placeholder assets
+- `assets/` - local image and downloadable CV assets
 
 ## Notes
 
-Some contact and social links are placeholders and should be replaced before using the site publicly.
+Content is aligned with `Jinnawat_Konsantad_CV_Professional_OnePage.docx`.

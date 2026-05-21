@@ -1,21 +1,21 @@
 const projects = [
   {
-    title: "Ops Dashboard",
-    label: "Real-time analytics dashboard for operations team.",
-    kind: "dark",
-    metrics: ["$1.24M", "8,347", "12,938"],
+    title: "Smart Manufacturing Workflow",
+    label: "Prototype for manufacturing data collection, preprocessing, dashboard logic, anomaly detection, predictive maintenance, and AI-assisted reporting.",
+    kind: "manufacturing",
+    metrics: ["Python", "SQLite", "Streamlit"],
   },
   {
-    title: "Workflow Builder",
-    label: "Visual automation builder to orchestrate business processes.",
-    kind: "workflow",
-    metrics: ["12 nodes", "4 rules", "98%"],
+    title: "Excel VBA Inventory System",
+    label: "Industrial Engineering capstone project for raw material tracking, input forms, validation, automated calculations, and stock visibility.",
+    kind: "inventory",
+    metrics: ["Excel VBA", "Macros", "Stock data"],
   },
   {
-    title: "Finance Tracker",
-    label: "Finance tracker with insights and budgeting.",
-    kind: "finance",
-    metrics: ["B125k", "B85k", "B42k"],
+    title: "Lathe PM Optimization",
+    label: "Maintenance management project using historical failure data, MTBF, MTTR, ABC analysis, spare part planning, and PDCA.",
+    kind: "maintenance",
+    metrics: ["MTBF", "MTTR", "PDCA"],
   },
 ];
 
@@ -48,21 +48,21 @@ nav?.addEventListener("click", (event) => {
 });
 
 function previewTemplate(project) {
-  if (project.kind === "workflow") {
+  if (project.kind === "inventory") {
     return `
       <div class="mock-app workflow-preview" aria-label="${project.title} preview">
         <div class="workflow-canvas">
-          <div class="workflow-card a"><b>Trigger</b><span>New submission</span></div>
-          <div class="workflow-card b"><b>Condition</b><span>Amount > 10,000</span></div>
-          <div class="workflow-card c"><b>Approval</b><span>Manager review</span></div>
-          <div class="workflow-card d"><b>Action</b><span>Send notification</span></div>
-          <div class="workflow-card e"><b>End</b><span>Complete</span></div>
+          <div class="workflow-card a"><b>Input form</b><span>Raw material receipt</span></div>
+          <div class="workflow-card b"><b>Validation</b><span>Standardized entries</span></div>
+          <div class="workflow-card c"><b>Calculation</b><span>Automated stock logic</span></div>
+          <div class="workflow-card d"><b>Visibility</b><span>Stock status view</span></div>
+          <div class="workflow-card e"><b>Control</b><span>Reduced record gaps</span></div>
         </div>
       </div>
     `;
   }
 
-  if (project.kind === "finance") {
+  if (project.kind === "maintenance") {
     return `
       <div class="mock-app mock-app-dark finance-preview" aria-label="${project.title} preview">
         <div class="mock-sidebar">
@@ -70,9 +70,9 @@ function previewTemplate(project) {
         </div>
         <div class="mock-main">
           <div class="metric-row">
-            <div><b>${project.metrics[0]}</b><small>Total balance</small></div>
-            <div><b>${project.metrics[1]}</b><small>Income</small></div>
-            <div><b>${project.metrics[2]}</b><small>Expenses</small></div>
+            <div><b>${project.metrics[0]}</b><small>Reliability measure</small></div>
+            <div><b>${project.metrics[1]}</b><small>Repair measure</small></div>
+            <div><b>${project.metrics[2]}</b><small>Improvement cycle</small></div>
           </div>
           <div class="finance-preview-layout">
             <span></span>
@@ -91,9 +91,9 @@ function previewTemplate(project) {
       <div class="mock-main">
         <div class="mock-toolbar"><span></span><span></span><span></span></div>
         <div class="metric-row">
-          <div><b>${project.metrics[0]}</b><small>Revenue</small></div>
-          <div><b>${project.metrics[1]}</b><small>Orders</small></div>
-          <div><b>${project.metrics[2]}</b><small>Active users</small></div>
+          <div><b>${project.metrics[0]}</b><small>Data workflow</small></div>
+          <div><b>${project.metrics[1]}</b><small>Structured storage</small></div>
+          <div><b>${project.metrics[2]}</b><small>Dashboard logic</small></div>
         </div>
         <div class="chart-line" aria-hidden="true">
           <svg viewBox="0 0 520 160" preserveAspectRatio="none">

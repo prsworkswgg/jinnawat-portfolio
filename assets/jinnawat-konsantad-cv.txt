@@ -1,16 +1,79 @@
-Jinnawat Konsantad
-Product-minded developer
+JINNAWAT KONSANTAD
+Industrial Engineering Graduate | Smart Manufacturing & Data Analytics
+Process Improvement | Manufacturing Data | Practical Automation | AI-assisted Workflow
 
-Focus
-- Reliable web applications
-- Dashboards and reporting tools
-- Workflow automation
-- UX collaboration
+prsworks.th@gmail.com | 081-989-3595 | Nakhon Ratchasima, Thailand
+ELYSIO: www.elysio-ai.com | GitHub: github.com/elysio-ai/elysio6FM26
+Smart Demo: smart-manu-portfolio-prsworkswgg.streamlit.app | GitHub: github.com/prsworkswgg/stock_manu
 
-Selected work
-- Ops Dashboard
-- Workflow Builder
-- Finance Tracker
+PROFILE
+Industrial Engineering graduate and M.Eng student interested in smart manufacturing, manufacturing data analytics, process improvement, and practical automation. Highly motivated to learn, detail-oriented, responsible, and open to developing under real factory team guidance.
 
-Contact
-Email: hello@jinnawat.dev
+CORE SKILLS
+IE: Process improvement; Lean; Work Study; RCA; Systems Thinking; Plant layout; Inventory; Logistics; Maintenance planning; MTBF/MTTR; PDCA
+Data/Automation: Python; SQL; Excel VBA; data collection/cleaning; dashboard logic; FastAPI/SQLite concepts; C# basics; Git/Linux basics
+Smart Manu: Manufacturing data workflow; sensor/production data concepts; predictive maintenance; anomaly detection; model training/evaluation fundamentals
+AI Tools: ChatGPT, Claude, Gemini and similar tools; prompt design; task decomposition; output verification; AI-assisted documentation
+
+LANGUAGES
+Thai: Native
+English: Working/intermediate communication; comfortable reading technical documentation
+
+PROFESSIONAL SKILLS
+- High responsibility
+- Detail-oriented
+- Time management
+- Teamwork
+- Strong commitment
+- Self-directed learning
+- Continuous improvement mindset
+- Open to feedback
+
+EDUCATION
+M.Eng IE: Expected May 2027
+B.Eng IE: Graduated, Suranaree University of Technology
+High School: Science-Mathematics Program
+
+CERTIFICATIONS
+- TPM - Alison
+- Data Analytics Essentials - Cisco
+- Python Essentials 1 - Cisco
+- Six Sigma Black Belt: Certified QFD Specialist - AIGPE/Udemy
+- Safety Management System Standards - SkillLane
+- Pitching Technique - SET
+- Design Thinking - SET/CEA
+- Presentation Skill - CEA
+
+SELECTED PROJECTS & CASE STUDIES
+Smart Manufacturing Data Workflow Prototype | Prototype / Concept Study
+- Designed a workflow for manufacturing data collection, preprocessing, dashboard logic, anomaly detection concepts, predictive maintenance concepts, and AI-assisted reporting.
+- Applied Python, FastAPI, SQLite, and Streamlit concepts to structure and present a simple manufacturing analytics workflow.
+Tools: Python, FastAPI, SQLite, Streamlit, dashboard logic
+
+Inventory Management System with Excel VBA | Industrial Engineering Capstone Project
+- Developed an Excel VBA-based inventory workflow for raw material tracking, structured input forms, validation logic, automated calculations, and stock visibility.
+- Addressed stock-record discrepancies, unrecorded withdrawals, over-purchasing risk, and inconsistent data entry through standardized workflow design.
+Tools: Excel VBA, Macros, inventory management, data validation
+
+Lathe Preventive Maintenance Optimization | Maintenance Management Academic Project
+- Developed a PM plan for a TURNER 460x1000 lathe using historical failure data, MTBF, MTTR, ABC analysis, and PDCA cycle.
+- Structured spare part forecasting, role assignment, and maintenance execution planning to support reliability-based thinking.
+Tools: PM, MTBF/MTTR, ABC analysis, PDCA
+
+TaoBin Queue and Logistics Simulation | Logistics & SCM Academic Project
+- Simulated queue and service efficiency using user arrival rates, process times, breakdown risk, queue capacity scenarios, ROI, and breakeven thinking.
+- Practiced data-driven process optimization for service operations and capacity planning.
+Tools: Simulation, logistics, queue analysis, ROI
+
+Lean Retail Inventory Management | Lean Manufacturing Academic Project
+- Applied Lean and DMAIC to analyze unclear reorder points, overstock, unnecessary movement, and store layout opportunities.
+- Used Fishbone Diagram, Why-Why Analysis, visual stock control concepts, SOP thinking, and layout redesign ideas.
+Tools: Lean, DMAIC, Fishbone, Why-Why, SOP thinking
+
+ELYSIOAI Platform | AI SaaS Platform MVP / Workflow Development
+- Worked on a Next.js-based AI generation platform MVP with Firebase/Firestore, Stripe billing flow, cost audit, credit-hold logic, billing-gate checks, quality scripts, Codex-assisted workflow, mobile shell support, and technical documentation.
+- Used project scripts for linting, type checking, route-contract tests, billing checks, smoke tests, and CI-style quality gates.
+Tools: Next.js, React, TypeScript, Firebase, Stripe, Jest, Capacitor
+
+TARGET ROLE FIT
+Suitable for entry-level or junior roles involving manufacturing data analysis, process improvement, smart manufacturing support, maintenance analytics, and data-driven operational improvement. Open to continuing development in Python ML libraries, C#, Git/Linux, industrial sensor data, and model evaluation under real factory team guidance.
