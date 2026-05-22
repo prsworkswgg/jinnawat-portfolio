@@ -1,13 +1,13 @@
 const projects = [
   {
-    title: "Smart Manufacturing Data Workflow",
-    metrics: ["Sensor Data", "Preprocess", "Anomaly Logic", "PM Concept"],
-    workflow: ["Collect", "Clean", "Store", "Analyze", "Report"],
+    title: "A/C + Leak Detection",
+    metrics: ["ESP32 / IoT", "Sensor Data", "Firebase Log", "LINE Alert"],
+    workflow: ["Sense", "Transmit", "Log", "Detect", "Alert"],
   },
   {
-    title: "Excel VBA Inventory System",
-    metrics: ["Input Forms", "Validation", "Stock Logic", "Reports"],
-    workflow: ["Receive", "Issue", "Validate", "Calculate", "Monitor"],
+    title: "Smart Manufacturing Data Workflow",
+    metrics: ["Data Input", "Preprocess", "Dashboard", "AI Report"],
+    workflow: ["Collect", "Clean", "Store", "Analyze", "Report"],
   },
   {
     title: "Lathe Preventive Maintenance",
