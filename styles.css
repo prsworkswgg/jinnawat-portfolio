@@ -817,6 +817,11 @@ svg {
   margin-bottom: 42px;
 }
 
+.section-heading-compact {
+  display: block;
+  margin-bottom: 24px;
+}
+
 .channel-showcase {
   display: grid;
   grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.25fr);
