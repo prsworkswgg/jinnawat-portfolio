@@ -55,7 +55,6 @@ const translations = {
     "summary.body":
       "Industrial Engineering graduate and current M.Eng student with project experience in ESP32-class IoT monitoring, temperature/humidity data, vibration and water-leak sensing, Firebase real-time logging, LINE alerting logic, manufacturing-data workflow design, Excel VBA inventory automation, preventive maintenance planning, MTBF/MTTR analysis, and AI-assisted documentation.",
     "role.kicker": "Industrial AI / ML Role Alignment",
-    "role.title": "Resume-backed IIoT and smart manufacturing evidence for factory AI work.",
     "role.card1.title": "Data Acquisition",
     "role.card1.body":
       "ESP32/NodeMCU-class prototype work with temperature/humidity, vibration, water-leak sensing, Wi-Fi transfer, and real-time logging concepts.",
@@ -223,7 +222,6 @@ const translations = {
     "summary.body":
       "บัณฑิตวิศวกรรมอุตสาหการและนักศึกษาปริญญาโทที่มีประสบการณ์โปรเจกต์ด้าน ESP32-class IoT monitoring, temperature/humidity data, vibration และ water-leak sensing, Firebase real-time logging, LINE alerting logic, manufacturing-data workflow design, Excel VBA inventory automation, preventive maintenance planning, MTBF/MTTR analysis และ AI-assisted documentation.",
     "role.kicker": "ความเชื่อมโยงกับงาน Industrial AI / ML",
-    "role.title": "หลักฐานจากเรซูเม่ด้าน IIoT และ smart manufacturing สำหรับงาน AI ในโรงงาน.",
     "role.card1.title": "การเก็บข้อมูลหน้างาน",
     "role.card1.body":
       "ประสบการณ์ prototype ระดับ ESP32/NodeMCU ที่เกี่ยวข้องกับ temperature/humidity, vibration, water-leak sensing, Wi-Fi transfer และแนวคิด real-time logging.",
