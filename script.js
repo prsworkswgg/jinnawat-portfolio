@@ -36,18 +36,6 @@ const translations = {
     "contact.smartDemo": "Smart Manufacturing Demo",
     "contact.website": "Website",
     "contact.emailMe": "Email Me",
-    "evidence.kicker": "Evidence Board",
-    "evidence.selector": "Featured project selector",
-    "evidence.previous": "Previous featured project",
-    "evidence.next": "Next featured project",
-    "evidence.workflow": "Workflow steps",
-    "evidence.featured": "Featured projects",
-    "tabs.iot.title": "IoT Monitoring",
-    "tabs.iot.desc": "ESP32, sensor data, Firebase logging, LINE alert logic",
-    "tabs.smart.title": "Smart Manufacturing",
-    "tabs.smart.desc": "Data workflow, preprocessing, anomaly logic, PM concepts",
-    "tabs.elysio.title": "ELYSIOAI Platform",
-    "tabs.elysio.desc": "AI platform, billing logic, quality gates",
     "channels.label": "Public Channels",
     "channels.kicker": "Public Channels",
     "channels.openlink.type": "Public Link Hub",
@@ -216,18 +204,6 @@ const translations = {
     "contact.smartDemo": "เดโม Smart Manufacturing",
     "contact.website": "เว็บไซต์",
     "contact.emailMe": "ส่งอีเมล",
-    "evidence.kicker": "หลักฐานผลงาน",
-    "evidence.selector": "ตัวเลือกโปรเจกต์เด่น",
-    "evidence.previous": "โปรเจกต์ก่อนหน้า",
-    "evidence.next": "โปรเจกต์ถัดไป",
-    "evidence.workflow": "ลำดับงาน",
-    "evidence.featured": "โปรเจกต์เด่น",
-    "tabs.iot.title": "IoT Monitoring",
-    "tabs.iot.desc": "ESP32, sensor data, Firebase logging, LINE alert logic",
-    "tabs.smart.title": "Smart Manufacturing",
-    "tabs.smart.desc": "Data workflow, preprocessing, anomaly logic, PM concepts",
-    "tabs.elysio.title": "ELYSIOAI Platform",
-    "tabs.elysio.desc": "AI platform, billing logic, quality gates",
     "channels.label": "ช่องทางสาธารณะ",
     "channels.kicker": "ช่องทางสาธารณะ",
     "channels.openlink.type": "ศูนย์รวมลิงก์",
@@ -275,7 +251,7 @@ const translations = {
     "competency.card4.body":
       "Data preprocessing, threshold-based anomaly logic, predictive-maintenance concepts, model training/evaluation fundamentals, scikit-learn workflow concepts, TensorFlow/Keras/PyTorch basics และ Gen AI-assisted documentation.",
     "work.kicker": "โปรเจกต์ที่คัดเลือก",
-    "work.title": "หลักฐานผลงานที่เขียนให้ใกล้เคียงประสบการณ์ทำงานจริงระดับ junior.",
+    "work.title": "โปรเจกต์ที่เขียนให้ใกล้เคียงประสบการณ์ทำงานจริงระดับ junior.",
     "project.openDemo": "เปิดเดโม",
     "project.openWebsite": "เปิดเว็บไซต์",
     "project1.type": "โปรเจกต์ฝึกงาน - Woraburi Sukhumvit / Tested Prototype",
@@ -357,69 +333,6 @@ const translations = {
   },
 };
 
-const projects = [
-  {
-    title: {
-      en: "A/C + Leak Detection",
-      th: "A/C + ตรวจจับน้ำรั่ว",
-    },
-    metrics: ["ESP32 / IoT", "Sensor Data", "Firebase Log", "LINE Alert"],
-    workflow: {
-      en: ["Sense", "Transmit", "Log", "Detect", "Alert"],
-      th: ["ตรวจจับ", "ส่งข้อมูล", "บันทึก", "วิเคราะห์", "แจ้งเตือน"],
-    },
-    image: "assets/aqua-guard-command-center.png",
-    imageAlt: {
-      en: "Aqua Guard A/C water leak detection command center dashboard",
-      th: "แดชบอร์ด command center สำหรับระบบตรวจจับน้ำรั่วจากแอร์ Aqua Guard",
-    },
-    caption: {
-      en: "Real dashboard evidence - A/C water leak command center",
-      th: "หลักฐานแดชบอร์ดจริง - command center สำหรับตรวจจับน้ำรั่วจาก A/C",
-    },
-  },
-  {
-    title: {
-      en: "Smart Manufacturing Data Workflow",
-      th: "Workflow ข้อมูล Smart Manufacturing",
-    },
-    metrics: ["Data Input", "Preprocess", "Dashboard", "AI Report"],
-    workflow: {
-      en: ["Collect", "Clean", "Store", "Analyze", "Report"],
-      th: ["เก็บข้อมูล", "ทำความสะอาด", "จัดเก็บ", "วิเคราะห์", "รายงาน"],
-    },
-    image: "assets/aqua-guard-command-center.png",
-    imageAlt: {
-      en: "Manufacturing monitoring dashboard used as smart factory interface evidence",
-      th: "แดชบอร์ด monitoring ที่ใช้เป็นหลักฐาน interface สำหรับ smart factory",
-    },
-    caption: {
-      en: "Real monitoring interface - sensor data, alerts, and floor risk overview",
-      th: "interface monitoring จริง - sensor data, alerts และ floor risk overview",
-    },
-  },
-  {
-    title: {
-      en: "ELYSIOAI Platform",
-      th: "แพลตฟอร์ม ELYSIOAI",
-    },
-    metrics: ["Next.js", "Firebase", "Stripe", "Quality Gates"],
-    workflow: {
-      en: ["Generate", "Bill", "Check", "Ship", "Document"],
-      th: ["สร้างงาน", "คิดเงิน", "ตรวจสอบ", "ส่งมอบ", "จัดเอกสาร"],
-    },
-    image: "assets/elysio-home-real.png",
-    imageAlt: {
-      en: "ELYSIOAI homepage screenshot showing AI platform interface",
-      th: "ภาพหน้าแรก ELYSIOAI แสดง interface ของแพลตฟอร์ม AI",
-    },
-    caption: {
-      en: "Real AI platform evidence - ELYSIOAI production website",
-      th: "หลักฐานแพลตฟอร์ม AI จริง - เว็บไซต์ production ของ ELYSIOAI",
-    },
-  },
-];
-
 const supportedLanguages = ["en", "th"];
 const savedLanguage = localStorage.getItem("portfolioLanguage");
 let currentLanguage = supportedLanguages.includes(savedLanguage) ? savedLanguage : "en";
@@ -427,25 +340,10 @@ let currentLanguage = supportedLanguages.includes(savedLanguage) ? savedLanguage
 const body = document.body;
 const navToggle = document.querySelector("[data-nav-toggle]");
 const nav = document.querySelector("[data-nav]");
-const tabs = Array.from(document.querySelectorAll("[data-project-tab]"));
 const langButtons = Array.from(document.querySelectorAll("[data-lang-button]"));
-const currentProject = document.querySelector("[data-current-project]");
-const projectTitle = document.querySelector("[data-project-title]");
-const metricGrid = document.querySelector("[data-metric-grid]");
-const workflowRail = document.querySelector("[data-workflow-rail]");
-const projectImage = document.querySelector("[data-project-image]");
-const projectCaption = document.querySelector("[data-project-caption]");
-const prevButton = document.querySelector("[data-project-prev]");
-const nextButton = document.querySelector("[data-project-next]");
-let activeProject = 0;
 
 function getText(key, language = currentLanguage) {
   return translations[language]?.[key] ?? translations.en[key] ?? "";
-}
-
-function localized(value) {
-  if (typeof value === "string") return value;
-  return value?.[currentLanguage] ?? value?.en ?? "";
 }
 
 function updateNavToggleLabel(isOpen = body.classList.contains("nav-open")) {
@@ -459,43 +357,6 @@ function closeNav() {
   body.classList.remove("nav-open");
   navToggle?.setAttribute("aria-expanded", "false");
   updateNavToggleLabel(false);
-}
-
-function setActiveProject(index) {
-  activeProject = (index + projects.length) % projects.length;
-  const project = projects[activeProject];
-
-  if (projectTitle) {
-    projectTitle.textContent = localized(project.title);
-  }
-
-  if (currentProject) {
-    currentProject.textContent = String(activeProject + 1).padStart(2, "0");
-  }
-
-  if (metricGrid) {
-    metricGrid.innerHTML = project.metrics.map((metric) => `<span>${metric}</span>`).join("");
-  }
-
-  if (workflowRail) {
-    workflowRail.innerHTML = localized(project.workflow).map((step) => `<span>${step}</span>`).join("");
-  }
-
-  if (projectImage) {
-    projectImage.src = project.image;
-    projectImage.alt = localized(project.imageAlt);
-  }
-
-  if (projectCaption) {
-    projectCaption.textContent = localized(project.caption);
-  }
-
-  tabs.forEach((tab, tabIndex) => {
-    const active = tabIndex === activeProject;
-    tab.classList.toggle("active", active);
-    tab.setAttribute("aria-selected", String(active));
-    tab.setAttribute("tabindex", active ? "0" : "-1");
-  });
 }
 
 function applyLanguage(language, shouldPersist = true) {
@@ -532,7 +393,6 @@ function applyLanguage(language, shouldPersist = true) {
   });
 
   updateNavToggleLabel();
-  setActiveProject(activeProject);
 }
 
 navToggle?.addEventListener("click", () => {
@@ -552,26 +412,6 @@ langButtons.forEach((button) => {
     applyLanguage(button.dataset.langButton);
   });
 });
-
-tabs.forEach((tab, index) => {
-  tab.addEventListener("click", () => setActiveProject(index));
-  tab.addEventListener("keydown", (event) => {
-    if (event.key === "ArrowRight") {
-      event.preventDefault();
-      setActiveProject(activeProject + 1);
-      tabs[(activeProject + projects.length) % projects.length]?.focus();
-    }
-
-    if (event.key === "ArrowLeft") {
-      event.preventDefault();
-      setActiveProject(activeProject - 1);
-      tabs[(activeProject + projects.length) % projects.length]?.focus();
-    }
-  });
-});
-
-prevButton?.addEventListener("click", () => setActiveProject(activeProject - 1));
-nextButton?.addEventListener("click", () => setActiveProject(activeProject + 1));
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {

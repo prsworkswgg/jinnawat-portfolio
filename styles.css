@@ -538,30 +538,6 @@ html:lang(th) .project-card li {
   stroke-width: 1.5;
 }
 
-.evidence-panel {
-  position: static;
-  z-index: auto;
-  order: 4;
-  min-width: 0;
-  margin-top: 8px;
-  padding: 18px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--surface);
-  backdrop-filter: none;
-}
-
-.evidence-panel::before {
-  display: none;
-}
-
-.panel-header {
-  display: grid;
-  gap: 14px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--border);
-}
-
 .section-kicker,
 .project-type {
   margin: 0 0 10px;
@@ -572,65 +548,6 @@ html:lang(th) .project-card li {
   text-transform: uppercase;
 }
 
-.panel-header h2 {
-  max-width: 100%;
-  margin: 0;
-  color: var(--text);
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 1.15;
-  letter-spacing: 0;
-  overflow-wrap: anywhere;
-}
-
-.panel-controls {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--text-tertiary);
-  font-size: 12px;
-  font-weight: 650;
-  white-space: nowrap;
-}
-
-.panel-controls b {
-  color: var(--text);
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.panel-controls button {
-  display: grid;
-  width: 34px;
-  height: 34px;
-  place-items: center;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--surface);
-  color: var(--text);
-  cursor: pointer;
-  transition:
-    border-color var(--duration-fast) var(--ease-out),
-    background-color var(--duration-fast) var(--ease-out);
-}
-
-.panel-controls button:hover,
-.panel-controls button:focus-visible {
-  border-color: var(--text);
-  background: var(--surface-muted);
-}
-
-.panel-controls svg {
-  width: 16px;
-  height: 16px;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 2;
-}
-
-.real-shot-frame,
 .project-media {
   position: relative;
   min-width: 0;
@@ -645,19 +562,15 @@ html:lang(th) .project-card li {
   transition: border-color var(--duration-fast) var(--ease-out);
 }
 
-.real-shot-frame:hover,
 .project-media:hover {
   border-color: var(--border-strong);
   box-shadow: none;
 }
 
-.real-shot-frame::before,
-.real-shot-frame::after,
 .project-media::after {
   display: none;
 }
 
-.real-shot-frame img,
 .project-media img {
   display: block;
   width: 100%;
@@ -669,102 +582,8 @@ html:lang(th) .project-card li {
   transition: none;
 }
 
-.real-shot-frame:hover img,
 .project-card:hover .project-media img {
   transform: none;
-}
-
-.real-shot-frame figcaption {
-  position: static;
-  max-width: none;
-  margin: 0;
-  padding: 10px 12px;
-  border: 0;
-  border-top: 1px solid var(--border);
-  border-radius: 0;
-  background: var(--surface);
-  color: var(--text-secondary);
-  font-size: 12px;
-  font-weight: 550;
-  line-height: 1.35;
-  backdrop-filter: none;
-}
-
-.workflow-rail {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  min-width: 0;
-  margin-top: 12px;
-  overflow: hidden;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--surface);
-}
-
-.workflow-rail span {
-  position: relative;
-  display: grid;
-  min-height: 38px;
-  place-items: center;
-  padding: 0 8px;
-  border-right: 1px solid var(--border);
-  color: var(--text-secondary);
-  font-size: 11px;
-  font-weight: 650;
-  text-align: center;
-}
-
-.workflow-rail span:last-child {
-  border-right: 0;
-}
-
-.workflow-rail span::after {
-  display: none;
-}
-
-.project-tabs {
-  display: grid;
-  gap: 8px;
-  min-width: 0;
-  margin-top: 12px;
-}
-
-.project-tabs button {
-  display: grid;
-  gap: 4px;
-  min-width: 0;
-  min-height: 0;
-  padding: 12px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--surface);
-  color: var(--text-secondary);
-  text-align: left;
-  cursor: pointer;
-  transition:
-    background-color var(--duration-fast) var(--ease-out),
-    border-color var(--duration-fast) var(--ease-out);
-}
-
-.project-tabs strong {
-  color: var(--text);
-  font-size: 13px;
-  line-height: 1.2;
-  overflow-wrap: anywhere;
-}
-
-.project-tabs small {
-  color: var(--text-secondary);
-  font-size: 11px;
-  line-height: 1.4;
-  overflow-wrap: anywhere;
-}
-
-.project-tabs button.active,
-.project-tabs button:hover,
-.project-tabs button:focus-visible {
-  border-color: #b8c6ff;
-  background: var(--accent-soft);
 }
 
 .summary-band,
@@ -1247,10 +1066,6 @@ html:lang(th) .project-card li {
     grid-row: span 3;
   }
 
-  .evidence-panel {
-    grid-column: 1 / -1;
-  }
-
   .channel-showcase,
   .summary-band,
   .contact-section {
@@ -1338,7 +1153,6 @@ html:lang(th) .project-card li {
 
   .hero-copy,
   .hero-visual,
-  .evidence-panel,
   .hero-links,
   .contact-strip {
     width: 100%;
@@ -1376,20 +1190,6 @@ html:lang(th) .project-card li {
   .button,
   .nav-cta {
     width: 100%;
-  }
-
-  .workflow-rail {
-    grid-template-columns: 1fr;
-  }
-
-  .workflow-rail span {
-    min-height: 34px;
-    border-right: 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .workflow-rail span:last-child {
-    border-bottom: 0;
   }
 
   .section-heading {
@@ -1461,11 +1261,6 @@ html:lang(th) .project-card li {
     font-size: 24px;
   }
 
-  .evidence-panel {
-    padding: 14px;
-  }
-
-  .panel-header h2,
   .project-card h3,
   .openlink-card h3 {
     font-size: 24px;
