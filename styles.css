@@ -967,7 +967,7 @@ html:lang(th) .project-card li {
 
 .contact-section {
   display: grid;
-  grid-template-columns: minmax(280px, 0.9fr) minmax(360px, 1.1fr);
+  grid-template-columns: minmax(0, 760px);
   gap: 36px;
 }
 

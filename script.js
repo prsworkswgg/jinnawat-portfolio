@@ -68,7 +68,6 @@ const translations = {
     "role.card4.body":
       "Continuing development in Python ML libraries, C# basics, Git/Linux, scikit-learn workflow concepts, and TensorFlow/Keras/PyTorch basics.",
     "competency.kicker": "Core Competencies",
-    "competency.title": "Keywords that matter for IE and smart manufacturing hiring.",
     "competency.card1.title": "Industrial Engineering",
     "competency.card1.body":
       "Process Improvement, Lean Manufacturing, Work Study, RCA, Systems Thinking, Plant Layout, Inventory Management, Logistics, Maintenance Planning, MTBF/MTTR, ABC Analysis, PDCA, DMAIC, Fishbone, Why-Why.",
@@ -82,7 +81,6 @@ const translations = {
     "competency.card4.body":
       "Data preprocessing, threshold-based anomaly logic, predictive-maintenance concepts, model training/evaluation fundamentals, scikit-learn workflow concepts, TensorFlow/Keras/PyTorch basics, and Gen AI-assisted documentation.",
     "work.kicker": "Selected Projects",
-    "work.title": "Project evidence, written like practical junior experience.",
     "project.openDemo": "Open demo",
     "project.openWebsite": "Open website",
     "project1.type": "Internship Project - Woraburi Sukhumvit / Tested Prototype",
@@ -133,7 +131,6 @@ const translations = {
       "Supported linting, type checking, route-contract tests, billing checks, smoke tests, and CI-style gates.",
     "project6.li2": "Used as a supporting project to show digital and automation mindset without overpowering IE work.",
     "skills.kicker": "Technical Skill Stack",
-    "skills.title": "Tools described by how they support factory work.",
     "skills.card1.title": "Programming & Data",
     "skills.card1.body":
       "Python, SQL, Excel VBA/Macros, data collection, data cleaning, data validation, automated calculation, dashboard logic, and analytics workflow demonstration.",
@@ -147,7 +144,6 @@ const translations = {
     "skills.card4.body":
       "MTBF/MTTR, maintenance planning, Lean, RCA, Work Study, inventory, logistics, ABC Analysis, PDCA, DMAIC, Fishbone, Why-Why, Git/Linux basics, and technical documentation.",
     "education.kicker": "Education & Certifications",
-    "education.title": "Formal IE background with analytics and improvement training.",
     "education.master.time": "Expected May 2027",
     "education.master.title": "Master of Engineering in Industrial Engineering",
     "education.bachelor.time": "Graduated",
@@ -155,11 +151,6 @@ const translations = {
     "education.university": "Suranaree University of Technology",
     "education.cert.time": "Certifications",
     "education.cert.title": "Relevant Training",
-    "target.kicker": "Target Role Fit",
-    "target.title":
-      "Ready for junior roles in Industrial AI support, IIoT monitoring, manufacturing data, and smart factory analytics.",
-    "target.body":
-      "Strong fit for early-career work involving sensor-data acquisition, machine-condition monitoring, early issue detection, dashboard status, maintenance analytics, and data-driven process optimization, with continued development in Python ML libraries, C#, Git/Linux, and real factory data systems under professional team guidance.",
     "footer.tagline": "Industrial AI & Smart Manufacturing | Industrial IoT & Data Analytics",
     "footer.links": "External links",
     "footer.smartDemo": "Smart Demo",
@@ -235,7 +226,6 @@ const translations = {
     "role.card4.body":
       "กำลังพัฒนาต่อใน Python ML libraries, C# basics, Git/Linux, scikit-learn workflow concepts และ TensorFlow/Keras/PyTorch basics.",
     "competency.kicker": "ทักษะหลัก",
-    "competency.title": "Keyword สำคัญสำหรับงาน IE และ smart manufacturing.",
     "competency.card1.title": "Industrial Engineering",
     "competency.card1.body":
       "Process Improvement, Lean Manufacturing, Work Study, RCA, Systems Thinking, Plant Layout, Inventory Management, Logistics, Maintenance Planning, MTBF/MTTR, ABC Analysis, PDCA, DMAIC, Fishbone, Why-Why.",
@@ -249,7 +239,6 @@ const translations = {
     "competency.card4.body":
       "Data preprocessing, threshold-based anomaly logic, predictive-maintenance concepts, model training/evaluation fundamentals, scikit-learn workflow concepts, TensorFlow/Keras/PyTorch basics และ Gen AI-assisted documentation.",
     "work.kicker": "โปรเจกต์ที่คัดเลือก",
-    "work.title": "โปรเจกต์ที่เขียนให้ใกล้เคียงประสบการณ์ทำงานจริงระดับ junior.",
     "project.openDemo": "เปิดเดโม",
     "project.openWebsite": "เปิดเว็บไซต์",
     "project1.type": "โปรเจกต์ฝึกงาน - Woraburi Sukhumvit / Tested Prototype",
@@ -297,7 +286,6 @@ const translations = {
     "project6.li1": "สนับสนุน linting, type checking, route-contract tests, billing checks, smoke tests และ CI-style gates.",
     "project6.li2": "ใช้เป็นโปรเจกต์เสริมเพื่อแสดง digital และ automation mindset โดยไม่ให้เด่นกว่างาน IE.",
     "skills.kicker": "Technical Skill Stack",
-    "skills.title": "เครื่องมือและทักษะที่อธิบายตามการใช้งานกับงานโรงงาน.",
     "skills.card1.title": "Programming & Data",
     "skills.card1.body":
       "Python, SQL, Excel VBA/Macros, data collection, data cleaning, data validation, automated calculation, dashboard logic และ analytics workflow demonstration.",
@@ -311,7 +299,6 @@ const translations = {
     "skills.card4.body":
       "MTBF/MTTR, maintenance planning, Lean, RCA, Work Study, inventory, logistics, ABC Analysis, PDCA, DMAIC, Fishbone, Why-Why, Git/Linux basics และ technical documentation.",
     "education.kicker": "การศึกษาและใบรับรอง",
-    "education.title": "พื้นฐานวิศวกรรมอุตสาหการ พร้อมการฝึกด้าน analytics และ improvement.",
     "education.master.time": "คาดว่าจะสำเร็จการศึกษา พฤษภาคม 2027",
     "education.master.title": "วิศวกรรมศาสตรมหาบัณฑิต สาขาวิศวกรรมอุตสาหการ",
     "education.bachelor.time": "สำเร็จการศึกษาแล้ว",
@@ -319,10 +306,6 @@ const translations = {
     "education.university": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
     "education.cert.time": "ใบรับรอง",
     "education.cert.title": "การอบรมที่เกี่ยวข้อง",
-    "target.kicker": "ตำแหน่งงานที่เหมาะสม",
-    "target.title": "พร้อมสำหรับงาน junior ด้าน Industrial AI support, IIoT monitoring, manufacturing data และ smart factory analytics.",
-    "target.body":
-      "เหมาะกับงานเริ่มต้นที่เกี่ยวข้องกับ sensor-data acquisition, machine-condition monitoring, early issue detection, dashboard status, maintenance analytics และ data-driven process optimization พร้อมพัฒนาต่อใน Python ML libraries, C#, Git/Linux และ real factory data systems ภายใต้ทีมมืออาชีพ.",
     "footer.tagline": "Industrial AI & Smart Manufacturing | Industrial IoT & Data Analytics",
     "footer.links": "ลิงก์ภายนอก",
     "footer.smartDemo": "เดโม Smart Manu",
