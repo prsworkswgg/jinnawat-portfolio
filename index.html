@@ -22,30 +22,34 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
 
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Jinnawat Konsantad home">
         <span class="brand-mark" aria-hidden="true">JK</span>
         <span>
           <strong>Jinnawat Konsantad</strong>
-          <small>Industrial AI / IIoT</small>
+          <small data-i18n="brand.tagline">Industrial AI / IIoT</small>
         </span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle data-i18n-open-label="nav.open" data-i18n-close-label="nav.close">
         <span></span>
         <span></span>
       </button>
 
-      <nav class="site-nav" aria-label="Primary navigation" data-nav>
-        <a href="#channels">Channels</a>
-        <a href="#work">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
+      <nav class="site-nav" aria-label="Primary navigation" data-nav data-i18n-aria="nav.primary">
+        <a href="#channels" data-i18n="nav.channels">Channels</a>
+        <a href="#work" data-i18n="nav.projects">Projects</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#education" data-i18n="nav.education">Education</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="language.label">
+          <button type="button" data-lang-button="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang-button="th" aria-pressed="false">TH</button>
+        </div>
         <a class="nav-cta" href="#contact">
-          Contact Me
+          <span data-i18n="nav.contactCta">Contact Me</span>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7l8 6 8-6M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" /></svg>
         </a>
       </nav>
@@ -56,11 +60,11 @@
         <div class="hero-copy">
           <h1 id="hero-title"><span>JINNAWAT</span><span>KONSANTAD</span></h1>
           <p class="hero-line">
-            <span>Industrial AI &amp; Smart Manufacturing</span>
+            <span data-i18n="hero.line1">Industrial AI &amp; Smart Manufacturing</span>
             <span class="line-separator" aria-hidden="true">|</span>
-            <span class="line-break">Industrial IoT &amp; Data Analytics</span>
+            <span class="line-break" data-i18n="hero.line2">Industrial IoT &amp; Data Analytics</span>
           </p>
-          <p class="hero-summary">
+          <p class="hero-summary" data-i18n="hero.summary">
             M.Eng Industrial Engineering student applying data analytics,
             Industrial IoT, practical automation, and AI-assisted workflows to
             real operational problems, including sensor-data monitoring,
@@ -68,51 +72,51 @@
             reporting logic.
           </p>
 
-          <dl class="contact-strip" aria-label="Contact information">
+          <dl class="contact-strip" aria-label="Contact information" data-i18n-aria="contact.info">
             <div>
-              <dt>Email</dt>
+              <dt data-i18n="contact.email">Email</dt>
               <dd><a href="mailto:prsworks.th@gmail.com">prsworks.th@gmail.com</a></dd>
             </div>
             <div>
-              <dt>Phone</dt>
+              <dt data-i18n="contact.phone">Phone</dt>
               <dd>081-989-3595</dd>
             </div>
             <div>
-              <dt>Location</dt>
-              <dd>Nakhon Ratchasima, Thailand</dd>
+              <dt data-i18n="contact.location">Location</dt>
+              <dd data-i18n="contact.locationValue">Nakhon Ratchasima, Thailand</dd>
             </div>
           </dl>
 
-          <div class="hero-actions" aria-label="Primary actions">
+          <div class="hero-actions" aria-label="Primary actions" data-i18n-aria="hero.actions">
             <a class="button button-primary" href="#work">
-              View Projects
+              <span data-i18n="hero.viewProjects">View Projects</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg>
             </a>
             <a class="button button-secondary" href="assets/Jinnawat_Konsantad_Resume.pdf" download>
-              Download Resume
+              <span data-i18n="hero.downloadResume">Download Resume</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14" /></svg>
             </a>
           </div>
 
-          <div class="hero-links" aria-label="Openlink and priority project links">
+          <div class="hero-links" aria-label="Openlink and priority project links" data-i18n-aria="hero.links">
             <a href="https://opl.to/jinwat" target="_blank" rel="noreferrer">
-              <strong>Openlink Hub</strong>
+              <strong data-i18n="hero.linkHub">Openlink Hub</strong>
               <span>opl.to/jinwat</span>
             </a>
             <a href="https://smart-manu-portfolio-prsworkswgg.streamlit.app/" target="_blank" rel="noreferrer">
-              <strong>Smart Demo</strong>
+              <strong data-i18n="hero.linkDemo">Smart Demo</strong>
               <span>smart-manu-portfolio-prsworkswgg.streamlit.app</span>
             </a>
             <a href="https://github.com/prsworkswgg/stock_manu" target="_blank" rel="noreferrer">
-              <strong>Manufacturing GitHub</strong>
+              <strong data-i18n="hero.linkGithub">Manufacturing GitHub</strong>
               <span>github.com/prsworkswgg/stock_manu</span>
             </a>
           </div>
         </div>
 
         <div class="hero-visual">
-          <div class="location-tag" aria-label="Location">
-            <span>Located<br />in Thailand</span>
+          <div class="location-tag" aria-label="Location" data-i18n-aria="contact.location">
+            <span data-i18n-html="hero.located">Located<br />in Thailand</span>
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" />
               <path d="M3.6 9h16.8M3.6 15h16.8M12 3c2.1 2.2 3.2 5.2 3.2 9S14.1 18.8 12 21c-2.1-2.2-3.2-5.2-3.2-9S9.9 5.2 12 3Z" />
@@ -126,20 +130,20 @@
               alt="Jinnawat Konsantad portrait with robotics and analytics visuals"
             />
           </figure>
-          <p class="hero-role-card">Industrial AI<br />Smart Manufacturing</p>
+          <p class="hero-role-card" data-i18n-html="hero.roleCard">Industrial AI<br />Smart Manufacturing</p>
 
         <aside class="evidence-panel" aria-labelledby="evidence-title">
           <div class="panel-header">
             <div>
-              <p class="section-kicker">Evidence Board</p>
+              <p class="section-kicker" data-i18n="evidence.kicker">Evidence Board</p>
               <h2 id="evidence-title" data-project-title>A/C + Leak Detection</h2>
             </div>
-            <div class="panel-controls" aria-label="Featured project selector">
-              <button type="button" aria-label="Previous featured project" data-project-prev>
+            <div class="panel-controls" aria-label="Featured project selector" data-i18n-aria="evidence.selector">
+              <button type="button" aria-label="Previous featured project" data-project-prev data-i18n-aria="evidence.previous">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" /></svg>
               </button>
               <span><b data-current-project>01</b> / 03</span>
-              <button type="button" aria-label="Next featured project" data-project-next>
+              <button type="button" aria-label="Next featured project" data-project-next data-i18n-aria="evidence.next">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg>
               </button>
             </div>
@@ -156,7 +160,7 @@
             <figcaption data-project-caption>Real dashboard evidence - A/C water leak command center</figcaption>
           </figure>
 
-          <div class="workflow-rail" data-workflow-rail aria-label="Workflow steps">
+          <div class="workflow-rail" data-workflow-rail aria-label="Workflow steps" data-i18n-aria="evidence.workflow">
             <span>Sense</span>
             <span>Transmit</span>
             <span>Log</span>
@@ -164,27 +168,27 @@
             <span>Alert</span>
           </div>
 
-          <div class="project-tabs" role="tablist" aria-label="Featured projects">
+          <div class="project-tabs" role="tablist" aria-label="Featured projects" data-i18n-aria="evidence.featured">
             <button class="active" type="button" role="tab" aria-selected="true" data-project-tab="0">
-              <strong>IoT Monitoring</strong>
-              <small>ESP32, sensor data, Firebase logging, LINE alert logic</small>
+              <strong data-i18n="tabs.iot.title">IoT Monitoring</strong>
+              <small data-i18n="tabs.iot.desc">ESP32, sensor data, Firebase logging, LINE alert logic</small>
             </button>
             <button type="button" role="tab" aria-selected="false" data-project-tab="1">
-              <strong>Smart Manufacturing</strong>
-              <small>Data workflow, preprocessing, anomaly logic, PM concepts</small>
+              <strong data-i18n="tabs.smart.title">Smart Manufacturing</strong>
+              <small data-i18n="tabs.smart.desc">Data workflow, preprocessing, anomaly logic, PM concepts</small>
             </button>
             <button type="button" role="tab" aria-selected="false" data-project-tab="2">
-              <strong>ELYSIOAI Platform</strong>
-              <small>AI platform, billing logic, quality gates</small>
+              <strong data-i18n="tabs.elysio.title">ELYSIOAI Platform</strong>
+              <small data-i18n="tabs.elysio.desc">AI platform, billing logic, quality gates</small>
             </button>
           </div>
         </aside>
         </div>
       </section>
 
-      <section class="channels-section" id="channels" aria-label="Public Channels">
+      <section class="channels-section" id="channels" aria-label="Public Channels" data-i18n-aria="channels.label">
         <div class="section-heading section-heading-compact">
-          <p class="section-kicker">Public Channels</p>
+          <p class="section-kicker" data-i18n="channels.kicker">Public Channels</p>
         </div>
         <div class="channel-showcase">
           <article class="openlink-card">
@@ -195,38 +199,38 @@
               alt="Jinnawat profile with robotics project visuals"
             />
             <div>
-              <p class="project-type">Public Link Hub</p>
-              <h3>Jinnawat's Portfolio</h3>
-              <p>
+              <p class="project-type" data-i18n="channels.openlink.type">Public Link Hub</p>
+              <h3 data-i18n="channels.openlink.title">Jinnawat's Portfolio</h3>
+              <p data-i18n-html="channels.openlink.desc">
                 Source link: <a href="https://opl.to/jinwat" target="_blank" rel="noreferrer">opl.to/jinwat</a>.
                 Openlink hub for project demos, GitHub repositories, and the ELYSIOAI website.
               </p>
             </div>
           </article>
-          <div class="channel-grid" aria-label="Public portfolio channels">
+          <div class="channel-grid" aria-label="Public portfolio channels" data-i18n-aria="channels.grid">
             <a class="channel-card" href="https://elysio-ai.com/" target="_blank" rel="noreferrer">
-              <span>SaaS Website</span>
-              <strong>ELYSIOAI product website</strong>
+              <span data-i18n="channels.elysio.type">SaaS Website</span>
+              <strong data-i18n="channels.elysio.title">ELYSIOAI product website</strong>
               <small>elysio-ai.com</small>
             </a>
             <a class="channel-card" href="https://smart-manu-portfolio-prsworkswgg.streamlit.app/" target="_blank" rel="noreferrer">
-              <span>Smart Manufacturing</span>
-              <strong>Manufacturing analytics demo</strong>
+              <span data-i18n="channels.smart.type">Smart Manufacturing</span>
+              <strong data-i18n="channels.smart.title">Manufacturing analytics demo</strong>
               <small>smart-manu-portfolio-prsworkswgg.streamlit.app</small>
             </a>
             <a class="channel-card" href="https://github.com/prsworkswgg/stock_manu" target="_blank" rel="noreferrer">
               <span>GitHub</span>
-              <strong>stock_manu repository</strong>
+              <strong data-i18n="channels.stock.title">stock_manu repository</strong>
               <small>github.com/prsworkswgg/stock_manu</small>
             </a>
             <a class="channel-card" href="https://github.com/prsworkswgg/smart_manu" target="_blank" rel="noreferrer">
               <span>GitHub</span>
-              <strong>smart_manu repository</strong>
+              <strong data-i18n="channels.smartRepo.title">smart_manu repository</strong>
               <small>github.com/prsworkswgg/smart_manu</small>
             </a>
             <a class="channel-card" href="https://github.com/elysio-ai/elysio6FM26" target="_blank" rel="noreferrer">
               <span>GitHub</span>
-              <strong>ELYSIOAI platform repository</strong>
+              <strong data-i18n="channels.elysioRepo.title">ELYSIOAI platform repository</strong>
               <small>github.com/elysio-ai/elysio6FM26</small>
             </a>
           </div>
@@ -235,10 +239,10 @@
 
       <section class="summary-band" aria-labelledby="summary-title">
         <div>
-          <p class="section-kicker">Professional Summary</p>
-          <h2 id="summary-title">Built for Industrial AI, Industrial IoT, and smart factory support roles.</h2>
+          <p class="section-kicker" data-i18n="summary.kicker">Professional Summary</p>
+          <h2 id="summary-title" data-i18n="summary.title">Built for Industrial AI, Industrial IoT, and smart factory support roles.</h2>
         </div>
-        <p>
+        <p data-i18n="summary.body">
           Industrial Engineering graduate and current M.Eng student with project
           experience in ESP32-class IoT monitoring, temperature/humidity data,
           vibration and water-leak sensing, Firebase real-time logging, LINE alerting
@@ -249,70 +253,70 @@
 
       <section class="role-fit-section" aria-labelledby="role-fit-title">
         <div class="section-heading">
-          <p class="section-kicker">Industrial AI / ML Role Alignment</p>
-          <h2 id="role-fit-title">Resume-backed IIoT and smart manufacturing evidence for factory AI work.</h2>
+          <p class="section-kicker" data-i18n="role.kicker">Industrial AI / ML Role Alignment</p>
+          <h2 id="role-fit-title" data-i18n="role.title">Resume-backed IIoT and smart manufacturing evidence for factory AI work.</h2>
         </div>
         <div class="role-fit-grid">
           <article>
             <span>01</span>
-            <h3>Data Acquisition</h3>
-            <p>ESP32/NodeMCU-class prototype work with temperature/humidity, vibration, water-leak sensing, Wi-Fi transfer, and real-time logging concepts.</p>
+            <h3 data-i18n="role.card1.title">Data Acquisition</h3>
+            <p data-i18n="role.card1.body">ESP32/NodeMCU-class prototype work with temperature/humidity, vibration, water-leak sensing, Wi-Fi transfer, and real-time logging concepts.</p>
           </article>
           <article>
             <span>02</span>
-            <h3>Analytics Readiness</h3>
-            <p>Threshold-based anomaly logic, data preprocessing, dashboard status, predictive-maintenance concepts, and model training/evaluation fundamentals.</p>
+            <h3 data-i18n="role.card2.title">Analytics Readiness</h3>
+            <p data-i18n="role.card2.body">Threshold-based anomaly logic, data preprocessing, dashboard status, predictive-maintenance concepts, and model training/evaluation fundamentals.</p>
           </article>
           <article>
             <span>03</span>
-            <h3>Operations Support</h3>
-            <p>Firebase logging, LINE alerting logic, technician-response context, workflow documentation, and AI-assisted reporting habits.</p>
+            <h3 data-i18n="role.card3.title">Operations Support</h3>
+            <p data-i18n="role.card3.body">Firebase logging, LINE alerting logic, technician-response context, workflow documentation, and AI-assisted reporting habits.</p>
           </article>
           <article>
             <span>04</span>
-            <h3>Development Path</h3>
-            <p>Continuing development in Python ML libraries, C# basics, Git/Linux, scikit-learn workflow concepts, and TensorFlow/Keras/PyTorch basics.</p>
+            <h3 data-i18n="role.card4.title">Development Path</h3>
+            <p data-i18n="role.card4.body">Continuing development in Python ML libraries, C# basics, Git/Linux, scikit-learn workflow concepts, and TensorFlow/Keras/PyTorch basics.</p>
           </article>
         </div>
       </section>
 
       <section class="competency-section" aria-labelledby="competency-title">
         <div class="section-heading">
-          <p class="section-kicker">Core Competencies</p>
-          <h2 id="competency-title">Keywords that matter for IE and smart manufacturing hiring.</h2>
+          <p class="section-kicker" data-i18n="competency.kicker">Core Competencies</p>
+          <h2 id="competency-title" data-i18n="competency.title">Keywords that matter for IE and smart manufacturing hiring.</h2>
         </div>
         <div class="competency-grid">
           <article>
-            <h3>Industrial Engineering</h3>
-            <p>Process Improvement, Lean Manufacturing, Work Study, RCA, Systems Thinking, Plant Layout, Inventory Management, Logistics, Maintenance Planning, MTBF/MTTR, ABC Analysis, PDCA, DMAIC, Fishbone, Why-Why.</p>
+            <h3 data-i18n="competency.card1.title">Industrial Engineering</h3>
+            <p data-i18n="competency.card1.body">Process Improvement, Lean Manufacturing, Work Study, RCA, Systems Thinking, Plant Layout, Inventory Management, Logistics, Maintenance Planning, MTBF/MTTR, ABC Analysis, PDCA, DMAIC, Fishbone, Why-Why.</p>
           </article>
           <article>
-            <h3>Industrial IoT / Sensor Data</h3>
-            <p>ESP32/NodeMCU concepts, temperature/humidity sensors, vibration sensors, water-leak sensors, Wi-Fi data transmission, Firebase Realtime Database, LINE Notify alerting, and event logging.</p>
+            <h3 data-i18n="competency.card2.title">Industrial IoT / Sensor Data</h3>
+            <p data-i18n="competency.card2.body">ESP32/NodeMCU concepts, temperature/humidity sensors, vibration sensors, water-leak sensors, Wi-Fi data transmission, Firebase Realtime Database, LINE Notify alerting, and event logging.</p>
           </article>
           <article>
-            <h3>Data &amp; Automation Tools</h3>
-            <p>Python, SQL, Excel VBA, Excel Macros, data collection, data cleaning, data validation, automated calculation, Streamlit, FastAPI/SQLite concepts, C# basics, Git basics, Linux basics.</p>
+            <h3 data-i18n="competency.card3.title">Data &amp; Automation Tools</h3>
+            <p data-i18n="competency.card3.body">Python, SQL, Excel VBA, Excel Macros, data collection, data cleaning, data validation, automated calculation, Streamlit, FastAPI/SQLite concepts, C# basics, Git basics, Linux basics.</p>
           </article>
           <article>
-            <h3>AI / ML Readiness</h3>
-            <p>Data preprocessing, threshold-based anomaly logic, predictive-maintenance concepts, model training/evaluation fundamentals, scikit-learn workflow concepts, TensorFlow/Keras/PyTorch basics, and Gen AI-assisted documentation.</p>
+            <h3 data-i18n="competency.card4.title">AI / ML Readiness</h3>
+            <p data-i18n="competency.card4.body">Data preprocessing, threshold-based anomaly logic, predictive-maintenance concepts, model training/evaluation fundamentals, scikit-learn workflow concepts, TensorFlow/Keras/PyTorch basics, and Gen AI-assisted documentation.</p>
           </article>
         </div>
       </section>
 
       <section class="work-section" id="work" aria-labelledby="work-title">
         <div class="section-heading">
-          <p class="section-kicker">Selected Projects</p>
-          <h2 id="work-title">Project evidence, written like practical junior experience.</h2>
+          <p class="section-kicker" data-i18n="work.kicker">Selected Projects</p>
+          <h2 id="work-title" data-i18n="work.title">Project evidence, written like practical junior experience.</h2>
         </div>
 
         <div class="project-list">
           <article class="project-card project-card-featured">
             <div class="project-index">01</div>
             <div>
-              <p class="project-type">Internship Project - Woraburi Sukhumvit / Tested Prototype</p>
-              <h3>IoT System for A/C Monitoring and Water-Leak Detection</h3>
+              <p class="project-type" data-i18n="project1.type">Internship Project - Woraburi Sukhumvit / Tested Prototype</p>
+              <h3 data-i18n="project1.title">IoT System for A/C Monitoring and Water-Leak Detection</h3>
               <figure class="project-media">
                 <img
                   src="assets/aqua-guard-command-center.png"
@@ -322,15 +326,15 @@
                   loading="lazy"
                 />
               </figure>
-              <p>
+              <p data-i18n="project1.body">
                 Built and tested an ESP32/NodeMCU-class IoT prototype to collect
                 room temperature/humidity, A/C compressor vibration, and water-leak
                 status for smart facility monitoring.
               </p>
               <ul>
-                <li>Designed a pilot architecture with Wi-Fi data transmission, Firebase Realtime Database logging, and LINE Notify alerting logic for technician response.</li>
-                <li>Defined rule-based anomaly conditions including temperature above 30C for 5-10 minutes, compressor vibration mismatch, and immediate room-level water-leak alerts.</li>
-                <li>Documented the system as a scalable pilot concept; tested as a prototype during internship and not expanded to all hotel rooms.</li>
+                <li data-i18n="project1.li1">Designed a pilot architecture with Wi-Fi data transmission, Firebase Realtime Database logging, and LINE Notify alerting logic for technician response.</li>
+                <li data-i18n="project1.li2">Defined rule-based anomaly conditions including temperature above 30C for 5-10 minutes, compressor vibration mismatch, and immediate room-level water-leak alerts.</li>
+                <li data-i18n="project1.li3">Documented the system as a scalable pilot concept; tested as a prototype during internship and not expanded to all hotel rooms.</li>
               </ul>
               <div class="tool-row">
                 <span>ESP32 / NodeMCU</span><span>Temperature / humidity</span><span>Vibration sensor</span><span>Water-leak sensor</span><span>Firebase</span><span>LINE Notify</span>
@@ -341,39 +345,39 @@
           <article class="project-card">
             <div class="project-index">02</div>
             <div>
-              <p class="project-type">Prototype / Concept Study</p>
-              <h3>Smart Manufacturing Data Workflow Prototype</h3>
-              <p>
+              <p class="project-type" data-i18n="project2.type">Prototype / Concept Study</p>
+              <h3 data-i18n="project2.title">Smart Manufacturing Data Workflow Prototype</h3>
+              <p data-i18n="project2.body">
                 Designed a smart-manufacturing data workflow prototype covering
                 machine/sensor data acquisition concepts, preprocessing, storage,
                 dashboard logic, anomaly-detection concepts, predictive-maintenance
                 indicators, and AI-assisted reporting.
               </p>
               <ul>
-                <li>Mapped the workflow from production-line data input to cleaned dataset, SQLite-style storage, dashboard visualization, and summary reporting.</li>
-                <li>Practiced Python workflow structure, FastAPI/SQLite concepts, Streamlit dashboard logic, and technical documentation relevant to factory analytics work.</li>
-                <li>Aligned the project with Industry 4.0 requirements such as sensor data concepts, anomaly logic, predictive maintenance, Git/Linux basics, and model-evaluation fundamentals.</li>
+                <li data-i18n="project2.li1">Mapped the workflow from production-line data input to cleaned dataset, SQLite-style storage, dashboard visualization, and summary reporting.</li>
+                <li data-i18n="project2.li2">Practiced Python workflow structure, FastAPI/SQLite concepts, Streamlit dashboard logic, and technical documentation relevant to factory analytics work.</li>
+                <li data-i18n="project2.li3">Aligned the project with Industry 4.0 requirements such as sensor data concepts, anomaly logic, predictive maintenance, Git/Linux basics, and model-evaluation fundamentals.</li>
               </ul>
               <div class="tool-row">
                 <span>Python</span><span>Sensor data concepts</span><span>Anomaly logic</span><span>PM concepts</span><span>Streamlit</span><span>Git/Linux basics</span>
               </div>
             </div>
-            <a class="project-link" href="https://smart-manu-portfolio-prsworkswgg.streamlit.app/">Open demo</a>
+            <a class="project-link" href="https://smart-manu-portfolio-prsworkswgg.streamlit.app/" data-i18n="project.openDemo">Open demo</a>
           </article>
 
           <article class="project-card">
             <div class="project-index">03</div>
             <div>
-              <p class="project-type">Industrial Engineering Capstone Project</p>
-              <h3>Inventory Management System with Excel VBA</h3>
-              <p>
+              <p class="project-type" data-i18n="project3.type">Industrial Engineering Capstone Project</p>
+              <h3 data-i18n="project3.title">Inventory Management System with Excel VBA</h3>
+              <p data-i18n="project3.body">
                 Developed an Excel VBA-based inventory workflow for raw material
                 tracking, structured input forms, validation logic, automated
                 calculations, and stock visibility.
               </p>
               <ul>
-                <li>Addressed stock-record discrepancies, unrecorded withdrawals, over-purchasing risk, and inconsistent data entry.</li>
-                <li>Built input and validation logic to improve data consistency and reduce manual recording errors.</li>
+                <li data-i18n="project3.li1">Addressed stock-record discrepancies, unrecorded withdrawals, over-purchasing risk, and inconsistent data entry.</li>
+                <li data-i18n="project3.li2">Built input and validation logic to improve data consistency and reduce manual recording errors.</li>
               </ul>
               <div class="tool-row">
                 <span>Excel VBA</span><span>Macros</span><span>Data validation</span><span>Stock visibility</span>
@@ -384,16 +388,16 @@
           <article class="project-card">
             <div class="project-index">04</div>
             <div>
-              <p class="project-type">Maintenance Management Academic Project</p>
-              <h3>Lathe Preventive Maintenance Optimization</h3>
-              <p>
+              <p class="project-type" data-i18n="project4.type">Maintenance Management Academic Project</p>
+              <h3 data-i18n="project4.title">Lathe Preventive Maintenance Optimization</h3>
+              <p data-i18n="project4.body">
                 Developed a preventive maintenance plan for a TURNER 460x1000
                 lathe using historical failure data, MTBF, MTTR, ABC analysis,
                 and PDCA.
               </p>
               <ul>
-                <li>Analyzed failure patterns to support reliability-based maintenance planning and task prioritization.</li>
-                <li>Structured spare-part forecasting, role assignment, and maintenance execution planning.</li>
+                <li data-i18n="project4.li1">Analyzed failure patterns to support reliability-based maintenance planning and task prioritization.</li>
+                <li data-i18n="project4.li2">Structured spare-part forecasting, role assignment, and maintenance execution planning.</li>
               </ul>
               <div class="tool-row">
                 <span>PM</span><span>MTBF</span><span>MTTR</span><span>ABC Analysis</span><span>PDCA</span>
@@ -404,16 +408,16 @@
           <article class="project-card">
             <div class="project-index">05</div>
             <div>
-              <p class="project-type">Academic IE Projects</p>
-              <h3>Lean / Logistics Process Improvement Cases</h3>
-              <p>
+              <p class="project-type" data-i18n="project5.type">Academic IE Projects</p>
+              <h3 data-i18n="project5.title">Lean / Logistics Process Improvement Cases</h3>
+              <p data-i18n="project5.body">
                 Applied Lean, DMAIC, Fishbone, Why-Why, queue analysis, ROI,
                 and breakeven thinking to evaluate inventory, layout,
                 service-capacity, and process-improvement scenarios.
               </p>
               <ul>
-                <li>Practiced translating operational problems into structured analysis, improvement actions, and decision-support logic.</li>
-                <li>Connected service capacity, waiting-time behavior, inventory waste, layout issues, and financial feasibility indicators.</li>
+                <li data-i18n="project5.li1">Practiced translating operational problems into structured analysis, improvement actions, and decision-support logic.</li>
+                <li data-i18n="project5.li2">Connected service capacity, waiting-time behavior, inventory waste, layout issues, and financial feasibility indicators.</li>
               </ul>
               <div class="tool-row">
                 <span>Lean</span><span>DMAIC</span><span>Fishbone</span><span>Why-Why</span><span>Queue analysis</span><span>ROI</span><span>Breakeven</span>
@@ -424,7 +428,7 @@
           <article class="project-card project-card-muted">
             <div class="project-index">06</div>
             <div>
-              <p class="project-type">AI SaaS Platform MVP / Workflow Development</p>
+              <p class="project-type" data-i18n="project6.type">AI SaaS Platform MVP / Workflow Development</p>
               <h3>ELYSIOAI Platform</h3>
               <figure class="project-media">
                 <img
@@ -435,69 +439,69 @@
                   loading="lazy"
                 />
               </figure>
-              <p>
+              <p data-i18n="project6.body">
                 Worked on a Next.js-based AI generation platform MVP with
                 Firebase/Firestore, Stripe billing flow, quality scripts,
                 Codex-assisted workflow, mobile shell support, and technical
                 documentation.
               </p>
               <ul>
-                <li>Supported linting, type checking, route-contract tests, billing checks, smoke tests, and CI-style gates.</li>
-                <li>Used as a supporting project to show digital and automation mindset without overpowering IE work.</li>
+                <li data-i18n="project6.li1">Supported linting, type checking, route-contract tests, billing checks, smoke tests, and CI-style gates.</li>
+                <li data-i18n="project6.li2">Used as a supporting project to show digital and automation mindset without overpowering IE work.</li>
               </ul>
               <div class="tool-row">
                 <span>Next.js</span><span>React</span><span>Firebase</span><span>Stripe</span><span>Jest</span>
               </div>
             </div>
-            <a class="project-link" href="https://elysio-ai.com/">Open website</a>
+            <a class="project-link" href="https://elysio-ai.com/" data-i18n="project.openWebsite">Open website</a>
           </article>
         </div>
       </section>
 
       <section class="skills-section" id="skills" aria-labelledby="skills-title">
         <div class="section-heading">
-          <p class="section-kicker">Technical Skill Stack</p>
-          <h2 id="skills-title">Tools described by how they support factory work.</h2>
+          <p class="section-kicker" data-i18n="skills.kicker">Technical Skill Stack</p>
+          <h2 id="skills-title" data-i18n="skills.title">Tools described by how they support factory work.</h2>
         </div>
         <div class="skill-stack">
           <article>
-            <h3>Programming &amp; Data</h3>
-            <p>Python, SQL, Excel VBA/Macros, data collection, data cleaning, data validation, automated calculation, dashboard logic, and analytics workflow demonstration.</p>
+            <h3 data-i18n="skills.card1.title">Programming &amp; Data</h3>
+            <p data-i18n="skills.card1.body">Python, SQL, Excel VBA/Macros, data collection, data cleaning, data validation, automated calculation, dashboard logic, and analytics workflow demonstration.</p>
           </article>
           <article>
-            <h3>Industrial IoT / Sensor Data</h3>
-            <p>ESP32/NodeMCU concepts, temperature/humidity sensing, vibration sensing, water-leak sensing, Wi-Fi data transmission, Firebase Realtime Database, and LINE Notify alerting.</p>
+            <h3 data-i18n="skills.card2.title">Industrial IoT / Sensor Data</h3>
+            <p data-i18n="skills.card2.body">ESP32/NodeMCU concepts, temperature/humidity sensing, vibration sensing, water-leak sensing, Wi-Fi data transmission, Firebase Realtime Database, and LINE Notify alerting.</p>
           </article>
           <article>
-            <h3>AI / ML Readiness</h3>
-            <p>Data preprocessing, threshold-based anomaly logic, model training/evaluation fundamentals, predictive-maintenance concepts, scikit-learn workflow concepts, and developing TensorFlow/Keras/PyTorch basics.</p>
+            <h3 data-i18n="skills.card3.title">AI / ML Readiness</h3>
+            <p data-i18n="skills.card3.body">Data preprocessing, threshold-based anomaly logic, model training/evaluation fundamentals, predictive-maintenance concepts, scikit-learn workflow concepts, and developing TensorFlow/Keras/PyTorch basics.</p>
           </article>
           <article>
-            <h3>Manufacturing / IE Workflow</h3>
-            <p>MTBF/MTTR, maintenance planning, Lean, RCA, Work Study, inventory, logistics, ABC Analysis, PDCA, DMAIC, Fishbone, Why-Why, Git/Linux basics, and technical documentation.</p>
+            <h3 data-i18n="skills.card4.title">Manufacturing / IE Workflow</h3>
+            <p data-i18n="skills.card4.body">MTBF/MTTR, maintenance planning, Lean, RCA, Work Study, inventory, logistics, ABC Analysis, PDCA, DMAIC, Fishbone, Why-Why, Git/Linux basics, and technical documentation.</p>
           </article>
         </div>
       </section>
 
       <section class="education-section" id="education" aria-labelledby="education-title">
         <div class="section-heading">
-          <p class="section-kicker">Education &amp; Certifications</p>
-          <h2 id="education-title">Formal IE background with analytics and improvement training.</h2>
+          <p class="section-kicker" data-i18n="education.kicker">Education &amp; Certifications</p>
+          <h2 id="education-title" data-i18n="education.title">Formal IE background with analytics and improvement training.</h2>
         </div>
         <div class="education-grid">
           <article>
-            <time>Expected May 2027</time>
-            <h3>Master of Engineering in Industrial Engineering</h3>
-            <p>Suranaree University of Technology</p>
+            <time data-i18n="education.master.time">Expected May 2027</time>
+            <h3 data-i18n="education.master.title">Master of Engineering in Industrial Engineering</h3>
+            <p data-i18n="education.university">Suranaree University of Technology</p>
           </article>
           <article>
-            <time>Graduated</time>
-            <h3>Bachelor of Engineering in Industrial Engineering</h3>
-            <p>Suranaree University of Technology</p>
+            <time data-i18n="education.bachelor.time">Graduated</time>
+            <h3 data-i18n="education.bachelor.title">Bachelor of Engineering in Industrial Engineering</h3>
+            <p data-i18n="education.university">Suranaree University of Technology</p>
           </article>
           <article>
-            <time>Certifications</time>
-            <h3>Relevant Training</h3>
+            <time data-i18n="education.cert.time">Certifications</time>
+            <h3 data-i18n="education.cert.title">Relevant Training</h3>
             <ul>
               <li>Data Analytics Essentials - Cisco</li>
               <li>Python Essentials 1 - Cisco</li>
@@ -514,9 +518,9 @@
 
       <section class="contact-section" id="contact" aria-labelledby="contact-title">
         <div>
-          <p class="section-kicker">Target Role Fit</p>
-          <h2 id="contact-title">Ready for junior roles in Industrial AI support, IIoT monitoring, manufacturing data, and smart factory analytics.</h2>
-          <p>
+          <p class="section-kicker" data-i18n="target.kicker">Target Role Fit</p>
+          <h2 id="contact-title" data-i18n="target.title">Ready for junior roles in Industrial AI support, IIoT monitoring, manufacturing data, and smart factory analytics.</h2>
+          <p data-i18n="target.body">
             Strong fit for early-career work involving sensor-data acquisition,
             machine-condition monitoring, early issue detection, dashboard status,
             maintenance analytics, and data-driven process optimization, with
@@ -526,19 +530,19 @@
         </div>
         <div class="contact-card">
           <dl>
-            <div><dt>Email</dt><dd><a href="mailto:prsworks.th@gmail.com">prsworks.th@gmail.com</a></dd></div>
-            <div><dt>Phone</dt><dd>081-989-3595</dd></div>
-            <div><dt>Location</dt><dd>Nakhon Ratchasima, Thailand</dd></div>
+            <div><dt data-i18n="contact.email">Email</dt><dd><a href="mailto:prsworks.th@gmail.com">prsworks.th@gmail.com</a></dd></div>
+            <div><dt data-i18n="contact.phone">Phone</dt><dd>081-989-3595</dd></div>
+            <div><dt data-i18n="contact.location">Location</dt><dd data-i18n="contact.locationValue">Nakhon Ratchasima, Thailand</dd></div>
             <div><dt>Openlink</dt><dd><a href="https://opl.to/jinwat">opl.to/jinwat</a></dd></div>
-            <div><dt>Smart Manufacturing Demo</dt><dd><a href="https://smart-manu-portfolio-prsworkswgg.streamlit.app/">smart-manu-portfolio-prsworkswgg.streamlit.app</a></dd></div>
+            <div><dt data-i18n="contact.smartDemo">Smart Manufacturing Demo</dt><dd><a href="https://smart-manu-portfolio-prsworkswgg.streamlit.app/">smart-manu-portfolio-prsworkswgg.streamlit.app</a></dd></div>
             <div><dt>GitHub - stock_manu</dt><dd><a href="https://github.com/prsworkswgg/stock_manu">github.com/prsworkswgg/stock_manu</a></dd></div>
             <div><dt>GitHub - smart_manu</dt><dd><a href="https://github.com/prsworkswgg/smart_manu">github.com/prsworkswgg/smart_manu</a></dd></div>
             <div><dt>GitHub - ELYSIOAI</dt><dd><a href="https://github.com/elysio-ai/elysio6FM26">github.com/elysio-ai/elysio6FM26</a></dd></div>
-            <div><dt>Website</dt><dd><a href="https://elysio-ai.com/">elysio-ai.com</a></dd></div>
+            <div><dt data-i18n="contact.website">Website</dt><dd><a href="https://elysio-ai.com/">elysio-ai.com</a></dd></div>
           </dl>
           <div class="contact-actions">
-            <a class="button button-primary" href="mailto:prsworks.th@gmail.com">Email Me</a>
-            <a class="button button-secondary" href="assets/Jinnawat_Konsantad_Resume.pdf" download>Download Resume</a>
+            <a class="button button-primary" href="mailto:prsworks.th@gmail.com" data-i18n="contact.emailMe">Email Me</a>
+            <a class="button button-secondary" href="assets/Jinnawat_Konsantad_Resume.pdf" download data-i18n="hero.downloadResume">Download Resume</a>
           </div>
         </div>
       </section>
@@ -546,12 +550,12 @@
 
     <footer class="site-footer">
       <strong>Jinnawat Konsantad</strong>
-      <span>Industrial AI &amp; Smart Manufacturing | Industrial IoT &amp; Data Analytics</span>
-      <div class="footer-links" aria-label="External links">
+      <span data-i18n="footer.tagline">Industrial AI &amp; Smart Manufacturing | Industrial IoT &amp; Data Analytics</span>
+      <div class="footer-links" aria-label="External links" data-i18n-aria="footer.links">
         <a href="https://opl.to/jinwat">Openlink</a>
-        <a href="https://smart-manu-portfolio-prsworkswgg.streamlit.app/">Smart Demo</a>
-        <a href="https://github.com/prsworkswgg/stock_manu">Manufacturing GitHub</a>
-        <a href="https://github.com/prsworkswgg/smart_manu">Smart Manu GitHub</a>
+        <a href="https://smart-manu-portfolio-prsworkswgg.streamlit.app/" data-i18n="footer.smartDemo">Smart Demo</a>
+        <a href="https://github.com/prsworkswgg/stock_manu" data-i18n="footer.manufacturingGithub">Manufacturing GitHub</a>
+        <a href="https://github.com/prsworkswgg/smart_manu" data-i18n="footer.smartManuGithub">Smart Manu GitHub</a>
         <a href="https://github.com/elysio-ai/elysio6FM26">ELYSIOAI GitHub</a>
       </div>
     </footer>

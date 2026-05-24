@@ -159,6 +159,45 @@ svg {
   color: var(--text);
 }
 
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.language-switch button {
+  min-height: 32px;
+  min-width: 38px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: calc(var(--radius) - 2px);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 760;
+  letter-spacing: 0;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.language-switch button:hover,
+.language-switch button:focus-visible {
+  background: var(--surface-muted);
+  color: var(--text);
+}
+
+.language-switch button.active,
+.language-switch button[aria-pressed="true"] {
+  background: var(--text);
+  color: var(--surface);
+}
+
 .nav-toggle {
   display: none;
   width: 42px;
@@ -254,6 +293,18 @@ a:focus-visible,
 button:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
+}
+
+html:lang(th) body {
+  line-height: 1.65;
+}
+
+html:lang(th) .hero-summary,
+html:lang(th) .summary-band > p,
+html:lang(th) .contact-section > div > p,
+html:lang(th) .project-card p,
+html:lang(th) .project-card li {
+  line-height: 1.75;
 }
 
 .hero {
@@ -1250,7 +1301,8 @@ button:focus-visible {
     gap: 6px;
     padding: 16px 18px 18px;
     border-bottom: 1px solid var(--border);
-    background: rgba(247, 247, 243, 0.98);
+    background: var(--bg);
+    box-shadow: 0 16px 30px rgba(20, 20, 20, 0.08);
     transform: translateY(-120%);
     visibility: hidden;
     transition:
@@ -1264,9 +1316,18 @@ button:focus-visible {
   }
 
   .site-nav > a,
-  .nav-cta {
+  .nav-cta,
+  .language-switch {
     justify-content: flex-start;
     width: 100%;
+  }
+
+  .language-switch {
+    display: flex;
+  }
+
+  .language-switch button {
+    flex: 1 1 0;
   }
 
   .hero {
